@@ -1,67 +1,20 @@
-# crash-lab
-A clean space where I break things on purpose.
-# 🧪 crash-lab
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-> A clean space where I break things on purpose.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## What is this?
+View your app in AI Studio: https://ai.studio/apps/47219831-210d-40df-9d31-0ab91b489b1b
 
-**crash-lab** is my personal experimentation repository.  
-No deadlines. No rules. Just code, curiosity, and controlled chaos.
+## Run Locally
 
-This is where I try out new ideas, test concepts, and see what breaks.
+**Prerequisites:**  Node.js
 
----
 
-## What you'll find here
-
-- 🎨 UI experiments & micro-interactions
-- ⚡ Frontend snippets & component ideas
-- 🔧 Random tools & mini projects
-- 💡 Things that may or may not work
-
----
-
-## Stack
-
-> Varies per experiment — but mostly:
-
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
----
-
-## How to explore
-
-```bash
-# Clone the repo
-git clone https://github.com/thecrashcoder/crash-lab.git
-
-# Move into it
-cd crash-lab
-
-# Open any experiment folder and run it
-```
-
-Each experiment lives in its own folder with its own mini readme if needed.
-
----
-
-## Status
-
-🟢 Always experimenting &nbsp;|&nbsp; 🔴 Never fully finished &nbsp;|&nbsp; 🟡 Probably breaking something
-
----
-
-## About me
-
-**@thecrashcoder** — Vibe coder. I don't fix bugs, I ship features.
-
-[![GitHub](https://img.shields.io/badge/GitHub-thecrashcoder-181717?style=flat&logo=github)](https://github.com/thecrashcoder)
-
----
-
-<p align="center">Built with chaos. Styled with intention.</p>
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
